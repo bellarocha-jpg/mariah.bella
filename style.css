@@ -1,7 +1,16 @@
 body {
-    background-color: rgb(150, 127, 255);
+    background-color: #0d1b2a; /* Um azul escuro bem estiloso */
+    color: #e0e1dd; /* Cor das letras clarinhas */
+    text-align: center; /* Centraliza tudo no meio do site */
+    font-family: sans-serif; /* Deixa as letras mais modernas e limpas */
 }
-h1{
-    color: rgb(174, 43, 226);
+
+h1 {
+    color: #4cc9f0; /* Azul néon bem brilhante para o título principal */
     font-size: 60px;
+}
+
+h2 {
+    color: #4895ef; /* Azul claro para os estilos de música (funk, sertanejo...) */
+    font-size: 35px;
 }
