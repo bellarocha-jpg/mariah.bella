@@ -15,12 +15,16 @@ h2 {
     font-size: 35px;
 }
 
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
 iframe {
-    width: 100%;
-    max-width: 450px;
-    height: 250px;
-    margin: 15px 0;
-    display: block;
+    width: 320px;
+    height: 200px;
     border-radius: 10px;
     border: none;
 }
