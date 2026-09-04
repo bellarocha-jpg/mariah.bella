@@ -1,15 +1,6 @@
-/* Aplicamos o estilo gordo e ajustamos para tamanhos médios */
-h1, h2 {
-    font-family: 'Rubik Mono One', sans-serif;
-    text-transform: uppercase;
-}
-
-h1 {
-    color: #4cc9f0;
-    font-size: 38px; /* Tamanho médio para o título principal */
-}
-
-h2 {
-    color: #4895ef;
-    font-size: 24px; /* Tamanho médio para as categorias */
+body {
+    background-color: #1d3557; /* Azul médio equilibrado */
+    color: #e0e1dd;
+    font-family: sans-serif;
+    margin: 20px;
 }
