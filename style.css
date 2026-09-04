@@ -5,6 +5,11 @@ body {
     margin: 20px;
 }
 
+/* Aplicando a fonte estilo grafite nos títulos */
+h1, h2 {
+    font-family: 'Rubik Dirt', cursive;
+}
+
 h1 {
     color: #4cc9f0;
     font-size: 60px;
