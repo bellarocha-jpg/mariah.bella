@@ -1,36 +1,15 @@
-body {
-    background-color: #0d1b2a;
-    color: #e0e1dd;
-    font-family: sans-serif;
-    margin: 20px;
-}
-
-/* Fonte estilo grafite marcante para os títulos */
+/* Aplicamos o estilo gordo e ajustamos para tamanhos médios */
 h1, h2 {
-    font-family: 'Permanent Marker', cursive;
-    letter-spacing: 2px;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-transform: uppercase;
 }
 
 h1 {
     color: #4cc9f0;
-    font-size: 60px;
+    font-size: 38px; /* Tamanho médio para o título principal */
 }
 
 h2 {
     color: #4895ef;
-    font-size: 35px;
-}
-
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-bottom: 30px;
-}
-
-iframe {
-    width: 320px;
-    height: 200px;
-    border-radius: 10px;
-    border: none;
+    font-size: 24px; /* Tamanho médio para as categorias */
 }
