@@ -1,6 +1,38 @@
 body {
-    background-color: #1d3557; /* Azul médio equilibrado */
-    color: #e0e1dd;
-    font-family: sans-serif;
+    background-color: #1a1a1a; /* Fundo preto para o branco destacar */
+    color: #ffffff; /* Texto branco */
+    font-family: Arial, sans-serif; /* Fonte padrão para o corpo */
     margin: 20px;
+}
+
+h1, h2 {
+    font-family: 'Permanent Marker', cursive; /* Aplica a fonte de grafite nos títulos */
+}
+
+h1 {
+    font-size: 80px; /* Título principal bem grande! */
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 50px; /* Títulos menores, mas ainda grandes */
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.category-block {
+    margin-bottom: 40px; /* Espaço entre blocos de categoria */
+}
+
+.iframe-container {
+    display: flex;
+    flex-wrap: wrap; /* Envolve os vídeos se não couberem na linha */
+    gap: 20px; /* Espaço entre os vídeos */
+}
+
+iframe {
+    width: 320px;
+    height: 180px;
+    border: 2px solid #ffffff; /* Borda branca nos vídeos */
+    border-radius: 10px; /* Bordas arredondadas nos vídeos */
 }
